@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figmato Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Assets/Images/Sample Logo.png" alt="" class="logo">
+                <!-- <div class="hamburger" id="hamburger">&#9776;</div> -->
+            </div>
+            <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
+            <nav>
+                <ul id="navigation-menu" class="navigation-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </nav>
+            <div id="auth-buttons" class="auth-buttons">
+                <button class="login"><span class="login-text">Login</span></button>
+                <button class="register"><span class="register-text">Register</span></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>The largest community of photo enthusiasts</h1>
+                
+                <button class="join-button">Join Today</button>
+            </div>
+        </section>
+        <section class="intro-section " id="features">
+            <h1 class="main-heading">Snap photos and share like never before</h1>
+            <div class="cards-container">
+                <div class="card">
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit 
+                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                    <button class="learn-more-btn" >Learn more</button>
+                </div>
+                <div class="card">
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+                <div class="card">
+                    <h2>Nemo enim ipsam</h2>
+                    <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+                <div class="card">
+                    <h2>Tempor incididunt</h2>
+                    <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+            </div>
+        </section>
+        <div class="section-gap" id="community"></div>
+        <section class="blog-section mb-120" >
+            <div class="photo-section-heading">
+                <h1 class="">Have you ever posted any photo on social media?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            </div>
+            
+            <div class="photo-section">
+            <div class="text-content">
+                <div class="">
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit 
+                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                   
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div >
+                    <h2>Nemo enim ipsam</h2>
+                    <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+              
+                </div>
+         
+                
+            </div>
+            <div class="image-content">
+                <img src="./Assets/Images/Mask Group.png" alt="Building Image" />
+            </div>
+        </div>
+        </section>
+        <div class="section-gap"></div>
+    <section class="products mb-120" id="pricing">
+        <div class="product-section">
+            
+            <div class="product-header">
+              <h1>Make your photos more stylish</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            </div>
+        
+       
+            <div class="product-cards">
+              <div class="product-card">
+                <img src="./Assets/Images/cardImage1.png" alt="Product Image 1" />
+                <h3>Sed ut perspiciatis</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
+              </div>
+              <div class="product-card">
+                <img src="./Assets/Images/cardImage2.png" alt="Product Image 2" />
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              </div>
+              <div class="product-card">
+                <img src="./Assets/Images/cardImage3.png" alt="Product Image 3" />
+                <h3>Nemo enim ipsam</h3>
+                <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="section-gap"></div>
+    <section class="contact-section mb-120" id="support">
+        <div class="content">
+            <h2>Ready to take a free trial?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+
+            <!-- Form -->
+            <form class="signup-form" id="signupForm">
+                <h1 class="signup-form-heading">
+                    Sign up for a free account
+                </h1>
+                <div class="form-row">
+                    <input type="text" name="firstName" id="firstName" placeholder="First name" required>
+                    <span class="error-message" id="firstNameError"></span>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last name" required>
+                    <span class="error-message" id="lastNameError"></span>
+                </div>
+                <div class="form-row">
+                    <input type="email" name="email" id="email" placeholder="Email address" required autocomplete="new-password">
+                    <span class="error-message" id="emailError"></span>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone number" required>
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+                <input type="password" name="password" id="password" placeholder="Create password" required>
+                <span class="error-message" id="passwordError"></span>
+                <button type="submit" class="register submit-btn">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer-content">
+        <div class="logo">
+            <img src="./Assets/Images/logoDarkMode.png" alt="Logo" style="height: 40px;"> 
+        </div>
+        <div class="footer-links">
+            <div>
+                <h4>Mobile App</h4>
+                <p>Features</p>
+                <p>Live share</p>
+                <p>Video record</p>
+            </div>
+            <div>
+                <h4>Community</h4>
+                <p>Featured artists</p>
+                <p>Live events</p>
+                <p>Live events</p>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <p>About us</p>
+                <p>Contact us</p>
+                <p>History</p>
+            </div>
+        </div>
+        <div class="footer-button">
+            <button type="button " class="register"><span class="register-text">Register</span></button>
+            <button type="button" class="login"><span class="login-text">Login</span></button>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="copyright">
+            &copy; Photo, Inc. 2019. We love our users!
+        </div>
+        <div class="social-icons">
+            <span>Follow us:</span>
+            <div class="social-icon">
+                <img src="./Assets/Images/facebookIcon.png" alt="Facebook">
+            </div>
+            <div class="social-icon">
+                <img src="./Assets/Images/twitterIocn.png" alt="Twitter">
+            </div>
+            <div class="social-icon">
+                <img src="./Assets/Images/linkedinIcon.png" alt="LinkedIn">
+            </div>
+            <div class="social-icon">
+                <img src="./Assets/Images/instaIcon.png" alt="Instagram">
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+    </main>
+
+   
+    <script src="./script.js"></script>
+</body>
+</html>
+
